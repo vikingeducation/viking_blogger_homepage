@@ -11,7 +11,7 @@ div {
   border-bottom: 1px solid black;
 }
 .logo-container{
-  display: inline-block;
+  float: left;
   line-height: 70px;
   padding-left: 10px;
 }
@@ -42,4 +42,30 @@ div {
   font-weight: bold;
   color: white;
   background-color: #2b78e4;
+}
+
+
+.search-container{
+  margin: 30px auto;
+  width: 620px;
+}
+
+.search-container input{
+  padding: 2px;
+}
+
+.search-container .search-bar{
+  font-size: 24px;
+  line-height: 34px;
+  width: 446px;
+  padding-left: 12px;
+  border: 1px solid gray;
+}
+
+.search-container .search-submit{
+  line-height: 34px;
+  font-size: 24px;
+  border: 1px solid gray;
+  width: 136px;
+  margin-left: 16px;
 }
