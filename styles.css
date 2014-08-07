@@ -21,7 +21,7 @@ div {
   vertical-align: middle;
 }
 
-.logo-container h2{
+.logo-container h1{
   font-size: 24px;
   display: inline-block;
   vertical-align: middle;
@@ -69,3 +69,57 @@ div {
   width: 136px;
   margin-left: 16px;
 }
+
+.post-container{
+  margin: 30px auto;
+  width: 620px;
+}
+
+.post{
+  padding: 40px 80px;
+}
+
+a{
+  color: #085394;
+  text-decoration: none;
+}
+
+.post h2{
+  font-size: 24px;
+  margin: .5em 0;
+}
+
+.post .post-date{
+  font-size: 14px;
+  text-align: right;
+  color: #ccc;
+  margin: 1em 0;
+}
+
+.post .post-body{
+  font-size: 16px;
+  color: #444;
+  line-height: 1.25em;
+}
+
+.post .comment-links-wrapper{
+  margin: 20px 0;
+  font-size: 14px;  
+}
+
+.post .view-comments{
+  float: left;
+}
+
+.post .write-comment{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
